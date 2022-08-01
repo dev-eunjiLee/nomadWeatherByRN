@@ -1,12 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import {Button} from "react-native-web";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Hello! I made a RN App!!!!!</Text>
-      <StatusBar style="auto" />
+      <Text style={styles.text}>Hello! I made a RN App!!!!!</Text>
+      <StatusBar style="dark" />
     </View>
   );
 }
@@ -14,8 +13,11 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: 'grey',
     alignItems: 'center',
     justifyContent: 'center',
   },
+  text: {
+    fontSize: 28
+  }
 });
