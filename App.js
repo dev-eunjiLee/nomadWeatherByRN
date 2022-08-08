@@ -113,6 +113,6 @@ const styles = StyleSheet.create({
   temp: { marginTop: 50, fontSize: 178 },
   description: { marginTop: -30, fontSize: 60 },
   tinyText: {
-    fontSize: 20,
+    fontSize: 30,
   },
 });
